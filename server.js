@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 var compression = require('compression')
 /* custom imports */
 const con = require('./db-connection.js')
+const { API_PASSWORD, PORT } = require('./config');
 
 /* initializing expressJS */
 const app = express();
@@ -16,6 +17,7 @@ app.use(cors())
 const port = process.env.PORT || 80;
 
 /* Global declarations  */
+
 const messageNoAuth = "You are not authorized to use the API. Contact Admin to resolve the issue";
 const statusNoAuth = 405;
 const jsonNoAuth = []
