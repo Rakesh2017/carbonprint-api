@@ -9,6 +9,8 @@ import secret variables from .env file
 
 */
 
+// NOTE: for server othher than WMDD, use exact IP(can be found at application page of WMDD) not a localhost 
+
 // connection setup
 var con = mysql.createConnection({
     host: HOST,
