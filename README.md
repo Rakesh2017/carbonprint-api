@@ -2,5 +2,4 @@
 
 # Built on ExpressJS 
 
-This is repo for carbon print APIs.
-
+This is repo for carbonprint.com REST APIs.
